@@ -17,10 +17,10 @@ import { Link } from "react-router-dom";
                 
              <div className="absolute inset-0 bg-[#060203]/90"></div>
                 
-                <div className="relative z-10 mx-auto w-full">
+                <div className="relative z-10 w-full">
                     <div className="pt-32">
                     <div className="inline-flex items-center gap-1.5 rounded-full border border-[#B5A89E]/20 px-2.5 py-0.5 text-[10px] font-mono uppercase tracking-wider text-[#B5A89E]/80">
-                            <span className="h-1 w-1 rounded-full bg-[#E07856] text-"></span>
+                            <span className="h-1 w-1 rounded-full bg-[#E07856] "></span>
                             PLATAFORMA DE GESTIÓN DE EVENTOS
                         </div>
 
@@ -40,7 +40,7 @@ import { Link } from "react-router-dom";
                    <form
                         action="submit"
                         method="get"
-                        className="flex items-center w-full max-w-2xl mx-auto gap-2 mt-8"
+                        className="flex flex-col sm:flex-row items-stretch sm:items-center w-full max-w-2xl mx-auto gap-2 mt-8 px-4 sm:px-0"
                     >
                         <Input
                             type="search"
@@ -53,7 +53,7 @@ import { Link } from "react-router-dom";
                         <Button
                             id="button_search"
                             type="submit"
-                            className="h-11 px-6 py-0 whitespace-nowrap"
+                             className="h-11 w-full sm:w-auto px-6 py-0 whitespace-nowrap"
                             rounded="md"
                         >
                             Buscar →
