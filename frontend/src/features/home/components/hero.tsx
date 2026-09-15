@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
         ]
 
         return (
-            <section className="relative bg-[url(./assets/fondo_hero.png)] bg-cover bg-center text-[#F0EAE4] text-center min-h-screen" >
+            <section className="relative bg-[url(./assets/fondo_hero.png)] bg-cover bg-center text-[#F0EAE4] text-center min-h-screen pb-50" >
                 
              <div className="absolute inset-0 bg-[#060203]/90"></div>
                 

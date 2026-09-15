@@ -17,12 +17,11 @@ function AuthLayout({children, badge, title, showBackHome, createAccount, metodo
 
   return (
     <main className="min-h-screen bg-[#060203] text-[#F0EAE4]">
-      {/* NAVBAR RESPONSIVE */}
+
       <Navbar />
 
-      {/* SECCIÓN PRINCIPAL */}
       <section className="grid min-h-[calc(100vh-4rem)] lg:grid-cols-2">
-        {/* Imagen Lateral con Difuminado */}
+
         <div className="relative hidden overflow-hidden lg:block
             [mask-image:linear-gradient(to_right,black_60%,transparent_100%)]
             [-webkit-mask-image:linear-gradient(to_right,black_60%,transparent_100%)]
@@ -60,7 +59,6 @@ function AuthLayout({children, badge, title, showBackHome, createAccount, metodo
                     {title}
                 </h1>
               </div>
-                 {/* Contenido de la Página (Formulario) */}
                 {children}
 
             <div className="mt-8 border-t border-[#1C1112] pt-8 text-center">
