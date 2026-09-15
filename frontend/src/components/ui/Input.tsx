@@ -39,7 +39,7 @@ export default function Input({
             )}
 
     
-            <div className="relative mt-2">              
+            <div className={`relative ${label ? "mt-2" : ""}`}>              
                 {Icon && (
                     /* Centrado vertical perfecto al inicio del campo */
                     <div className="absolute left-4 top-1/2 -translate-y-1/2">
