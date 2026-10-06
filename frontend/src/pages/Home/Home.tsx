@@ -3,6 +3,7 @@ import { EventCard } from "../../features/events/components/EventCard";
 import { Hero } from "../../features/home/components/Hero";
 import { Stats } from "../../features/home/components/Stats";
 import { events } from "../../features/events/data/events.mock";
+import  { OrganizerSection} from "../../features/home/components/OrganizerSection";
 
 export default function Home() {
     const MAX_CARDS = 3;
@@ -20,6 +21,7 @@ export default function Home() {
                     ))}
                 </div>
             </section>
+            <OrganizerSection event={events[0]} />
         </>
     )
 }

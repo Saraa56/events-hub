@@ -11,6 +11,7 @@ const ROUNDED_STYLES = {
   full: 'rounded-full',
   md: 'rounded-md',
   lg: 'rounded-lg',
+  xs: 'rounded-xs',
   none: 'rounded-none'
 } as const;
 
